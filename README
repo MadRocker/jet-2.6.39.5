@@ -1,3 +1,15 @@
+##### MadRocker #####
+* Tested stable kernel for most drivers / modules, see v1 .config for what works.
+* Comedi data aqcuisition still has issues and can be fixed later.
+* About to use m910 vital / instintcq parts to convert Jet to this kernel idiot style 
+  compare and rename and pray it works LOL.
+* Will later merge Samsung and ARM kernel as is needed or useful.
+* Based on the concept of m910 vital / vinsq .config and a bootable zImage for Jet 
+  except for screen 24 bits and ams320 and possibly a few other issues that is stopping 
+  the video from working during kernel boot.
+* The rest of the hardware is similar enough for this to work. 
+##### END #####
+
 	Linux kernel release 2.6.xx <http://kernel.org/>
 
 These are the release notes for Linux version 2.6.  Read them carefully,
